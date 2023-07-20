@@ -1,0 +1,85 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.timer-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+#break-label,
+#session-label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#break-length,
+#session-length,
+#time-left {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+button {
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+#break-decrement,
+#session-decrement
+{
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: paleturquoise;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#start_stop,
+#reset {
+  font-size: 18px;
+  background-color: #28a745;
+}
+
+#start_stop:hover,
+#reset:hover {
+  background-color: #1c7430;
+}
+
